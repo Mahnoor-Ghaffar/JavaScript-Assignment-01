@@ -30,7 +30,7 @@ document.write("<h2>Task No 2:-</h2>");
 // c. floor value of the number
 // d. ceil value of the number.
 
-let floatingNum = Number(prompt("Please enter a positive integer:"));
+let floatingNum = Number(prompt("Please enter a negative floating point number: "));
 
 let roundOfN = Math.round(positiveInt);
 let mFloorN = Math.floor(positiveInt);
@@ -67,10 +67,11 @@ document.write('The absolute value of '+num+'  is '+absoluteVal);
 
 
 document.write("<h2>Task No 4:-</h2>");
-// Write a program that simulates a dice using random() method of JS Math class. Display the value of dice in your browser.: 
+// Write a program that simulates a dice using random() method of JS Math class.
+//Display the value of dice in your browser.: 
 
 let diceValue = Math.floor(Math.random() * 6) + 1;
-document.write('Random die value : '+diceValue);
+document.write('Random dice value : '+ diceValue);
 
 
 

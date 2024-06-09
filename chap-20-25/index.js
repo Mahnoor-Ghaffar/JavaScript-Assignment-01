@@ -74,7 +74,7 @@ document.write("<h2>Task No 6:-</h2>");
 let firstName1 = prompt("Please enter your first name:");
 let lastName1 = prompt("Please enter your last name:");
 
-document.write("Hello "+firstName1 + " " + lastName1);
+document.write("Hello "+firstName1.concat(" "+lastName1));
 
 
 
@@ -108,7 +108,6 @@ let  message = "Ali and Sami are best friends. They play cricket and football to
 var replaceand = message.replace(/and/g, "&");
 document.write("Original message: " + message + "<br>");
 document.write("After Replacement: " + replaceand);
-
 
 
 
@@ -247,14 +246,14 @@ if (findBakeryItems !== -1) {
 // table at the end of this document.
 
 
-var password = prompt("Enter your password: ");
+let password = prompt("Enter your password: ");
 
-var passwordLength = false;
-var passwordChar = false;
-var passwordInt = false;
+let passwordLength = false;
+let passwordChar = false;
+let passwordInt = false;
 
-for (var i = 0; i < password.length; i++) {
-    var charCode = password.charCodeAt(i);
+for (let i = 0; i < password.length; i++) {
+  let charCode = password.charCodeAt(i);
     
     //For Checking if the character is an uppercase or lowercase letter
     if ((charCode >= 65 && charCode <= 90) || (charCode >= 97 && charCode <= 122)) {
@@ -267,7 +266,7 @@ for (var i = 0; i < password.length; i++) {
 }
 
 //For Check if the first character of the password is not a number
-var passwordStart = !(password.charCodeAt(0) >= 48 && password.charCodeAt(0) <= 57);
+let passwordStart = !(password.charCodeAt(0) >= 48 && password.charCodeAt(0) <= 57);
 
 // Check if any of the validation conditions fail and display appropriate message
 if (!passwordChar || !passwordInt || !passwordLength || !passwordStart) {

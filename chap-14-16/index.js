@@ -171,8 +171,6 @@ colors.splice(indexToAdd, 0, colorToAdd);
 //updated array
 document.write("<b>After adding a color at index " + indexToAdd + ":</b> " + colors + "<br><br>");
 
-
-
 // Ask the user at which index to delete color(s) and how many colors to delete
 var indexToDelete = parseInt(prompt("Enter the index to delete color(s) from:"));
 var deleteCount = parseInt(prompt("Enter the number of colors to delete:"));

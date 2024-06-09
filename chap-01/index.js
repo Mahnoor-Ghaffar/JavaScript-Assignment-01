@@ -12,7 +12,7 @@ alert(`Hello, ${yourName}! Welcome to our website.`);
 
 /////////////////task 02
 
-alert("ERROR! Your password is in correct");
+alert("ERROR! Your password is incorrect");
 
 
 

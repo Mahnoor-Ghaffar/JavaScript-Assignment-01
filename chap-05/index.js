@@ -217,7 +217,7 @@ document.write('<p style="font-size: 30px;">Task-no 06<p>')
 // d. Convert it to Celsius & output “NNoF is NNoC”.
 
 
-// a. Store a Celsius temperature into a variable
+// a.Celsius temperature
 let celsiusTemperature = 30;
 
 // b. Convert Celsius to Fahrenheit
@@ -226,7 +226,7 @@ let fahrenheitTemperature = (celsiusTemperature * 9 / 5) + 32;
 // Output the conversion result
 document.write("<br></br> "+celsiusTemperature + "°C is " + fahrenheitTemperature + "°F");
 
-// c. Store a Fahrenheit temperature into a variable
+// c. Fahrenheit temperature
 let fahrenheitTemp = 70;
 
 // d. Convert Fahrenheit to Celsius

@@ -90,7 +90,7 @@ alert("I'm trying to learn from the book "+ book);
 ///////////// Task 08
 // 8. Write a script to display this in browser through JS
 
-document.write('<span style="font-size: 24px;"> Yeh! I can write HTML content through JavaScript <br> <br>');
+document.write('<span style="font-size: 24px;"> Yeh! I can write HTML content through JavaScript </span> <br> <br>');
 
 
 
